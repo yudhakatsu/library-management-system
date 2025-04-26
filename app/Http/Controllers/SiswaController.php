@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User; // Import model User
 use Illuminate\Support\Facades\DB;
+use App\Models\Buku;
 
 class SiswaController extends Controller
 {

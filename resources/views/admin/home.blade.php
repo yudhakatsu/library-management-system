@@ -298,7 +298,7 @@
             </div>
         </div>
         <div class="chart" style="margin-top: 50px;">
-            <h3>Total Kunjungan Tahun 2024</h3>
+            <h3>Total Kunjungan Tahun {{ date('Y') }}</h3>
             <canvas id="visitChart" width="400" height="100"></canvas>
         </div>
     </div>

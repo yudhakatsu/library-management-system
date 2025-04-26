@@ -454,7 +454,7 @@
                 </div>
                 <div class="download-container">
                     <form action="{{ route('admin.laporan') }}" method="GET">
-                        <select id="bulanSelectPemasukan" class="form-select form-select-sm w-auto" name="bulanInventaris" onchange="this.form.submit()">
+                        <select id="bulanSelectInventaris" class="form-select form-select-sm w-auto" name="bulanInventaris" onchange="this.form.submit()">
                             <option value="01" {{ $bulanPemasukan == '01' ? 'selected' : '' }}>Januari</option>
                             <option value="02" {{ $bulanPemasukan == '02' ? 'selected' : '' }}>Februari</option>
                             <option value="03" {{ $bulanPemasukan == '03' ? 'selected' : '' }}>Maret</option>

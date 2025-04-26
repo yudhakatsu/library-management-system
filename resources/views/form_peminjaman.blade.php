@@ -290,7 +290,7 @@
 
         // Fungsi untuk mengarahkan ke halaman berikutnya
         function redirectToNextPage() {
-            window.location.href = '{{ route("riwayat") }}'; // Ganti dengan URL atau route yang sesuai
+            window.location.href = '{{ route("riwayat-peminjaman") }}'; // Ganti dengan URL atau route yang sesuai
         }
 
         // Tutup modal secara otomatis menggunakan fitur Bootstrap
